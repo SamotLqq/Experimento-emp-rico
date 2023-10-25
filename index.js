@@ -6,10 +6,8 @@ import { extraccion } from './operaciones/extraccion.js';
 import { movimientos } from './operaciones/movimientos.js';
 import { saldo } from './operaciones/saldo.js';
 
-
 function main(args) {
   let e = Estado.cargar()
-  let usuarios = e.usuarios;
   if (args.length === 0) {
     console.log("Sin argumentos.");
     process.exit(1);
@@ -19,29 +17,35 @@ function main(args) {
       // [extraccion dni clave monto]
       // TODO: Completar.
       e = extraccion(e, args[1], args[2], args[3])
+      // falta penultimo
       break;
     case "clave":
       // args = [clave dni actual nueva]
       // TODO: Completar.
       e = clave(e, args[1], args[2], args[3])
+      // hecho
       break;
     case "saldo":
       //args = [ saldo dni clave]
       // TODO: Completar.
       saldo(e, args[1], args[2])
+      // hecho
       break;
     case "alta":
       //args = [ alta dni_administrador clave_administrador dni clave nombre sueldo saldo ]
       e = alta(e, args[1], args[2], args[3], args[4], args[5], args[6], args[7])
+      // hecho
       break;
     case "carga":
       // args = [carga dni_admin clave_admin monto]
       e = carga(e, args[1], args[2], args[3])
+      // hecho
       break;
     case "movimientos":
       // args = [movimientos dni_admin clave_admin dni_consulta desde hasta]
       // TODO: Completar.
       movimientos(e, args[1], args[2], args[3], args[4], args[5])
+      // falta, ultimo
       break;
     default:
       console.log("Operación inválida.");

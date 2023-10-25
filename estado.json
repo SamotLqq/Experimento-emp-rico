@@ -1,1 +1,335 @@
-{"admin":{"dni":"admin","clave":"admin"},"usuarios":[{"dni":"43494873","nombre":"omas","sueldo":"100000","clave":"callofduty","saldo":"100000","movHoy":[],"movTotales":[]},{"dni":"434944843","nombre":"omas","sueldo":"100000","clave":"ceal4lofduty","saldo":"100000","movHoy":[],"movTotales":[]},{"dni":"43494853","nombre":"tomas3","sueldo":"100001","clave":"ceal4lofduty","saldo":"100001","movHoy":[],"movTotales":[]},{"dni":"434948544","nombre":"tomas3","sueldo":"100001","clave":"ceal4lofduty","saldo":"100001","movHoy":[],"movTotales":[]},{"dni":"43000000","nombre":"tomi","sueldo":"134","clave":"call23ofd","saldo":"134","movHoy":[],"movTotales":[]}],"registrados":5,"fondos":303}
+{
+  "admin": {
+    "dni": "admin",
+    "clave": "admin"
+  },
+  "usuarios": [
+    {
+      "dni": 43494873,
+      "nombre": "omas",
+      "sueldo": 100000,
+      "clave": "callofduty29",
+      "saldo": 14000,
+      "ultCambioContr": {
+        "fecha": [
+          25,
+          10,
+          2023
+        ],
+        "antigua": "callofduty2911",
+        "nueva": "callofduty29"
+      },
+      "extHoy": [
+        {
+          "monto": 1000,
+          "fecha": [
+            25,
+            10,
+            2023
+          ]
+        },
+        {
+          "monto": 2000,
+          "fecha": [
+            25,
+            10,
+            2023
+          ]
+        },
+        {
+          "monto": 3000,
+          "fecha": [
+            25,
+            10,
+            2023
+          ]
+        }
+      ],
+      "movTotales": [
+        {
+          "fecha": [
+            25,
+            7,
+            2023
+          ],
+          "antigua": "callofduty2901",
+          "nueva": "callofduty2901"
+        },
+        {
+          "fecha": [
+            25,
+            8,
+            2023
+          ],
+          "antigua": "callofduty2901",
+          "nueva": "callofduty29"
+        },
+        {
+          "fecha": [
+            25,
+            9,
+            2023
+          ],
+          "antigua": "callofduty29",
+          "nueva": "callofduty29"
+        },
+        {
+          "fecha": [
+            25,
+            10,
+            2023
+          ],
+          "antigua": "callofduty2901",
+          "nueva": "callofduty2911"
+        },
+        {
+          "monto": 20000,
+          "fecha": [
+            25,
+            10,
+            2023
+          ]
+        },
+        {
+          "monto": 20000,
+          "fecha": [
+            25,
+            10,
+            2023
+          ]
+        },
+        {
+          "monto": 20000,
+          "fecha": [
+            25,
+            10,
+            2023
+          ]
+        },
+        {
+          "monto": 20000,
+          "fecha": [
+            25,
+            10,
+            2023
+          ]
+        },
+        {
+          "monto": 1000,
+          "fecha": [
+            25,
+            10,
+            2023
+          ]
+        },
+        {
+          "monto": 2000,
+          "fecha": [
+            25,
+            10,
+            2023
+          ]
+        },
+        {
+          "monto": 3000,
+          "fecha": [
+            25,
+            10,
+            2023
+          ]
+        },
+        {
+          "fecha": [
+            25,
+            10,
+            2023
+          ],
+          "antigua": "callofduty2911",
+          "nueva": "callofduty29"
+        }
+      ]
+    },
+    {
+      "dni": 434944843,
+      "nombre": "omas",
+      "sueldo": 100000,
+      "clave": "ceal4lofduty",
+      "saldo": 100000,
+      "ultCambioContr": {},
+      "extHoy": [],
+      "movTotales": []
+    },
+    {
+      "dni": 43494853,
+      "nombre": "tomas3",
+      "sueldo": 100001,
+      "clave": "ceal4lofduty",
+      "saldo": 100001,
+      "ultCambioContr": {},
+      "extHoy": [],
+      "movTotales": []
+    },
+    {
+      "dni": 434948544,
+      "nombre": "tomas3",
+      "sueldo": 100001,
+      "clave": "ceal4lofduty",
+      "saldo": 100001,
+      "ultCambioContr": {},
+      "extHoy": [],
+      "movTotales": []
+    },
+    {
+      "dni": 43000000,
+      "nombre": "tomi",
+      "sueldo": 134,
+      "clave": "call23ofd",
+      "saldo": 134,
+      "ultCambioContr": {},
+      "extHoy": [],
+      "movTotales": []
+    },
+    {
+      "dni": 323466,
+      "nombre": "tomaaaaas",
+      "sueldo": 90000,
+      "clave": "callof293",
+      "saldo": 90000,
+      "ultCambioContr": {},
+      "extHoy": [],
+      "movTotales": []
+    },
+    {
+      "dni": 323443366,
+      "nombre": "tomaaaaas",
+      "sueldo": 90000,
+      "clave": "callof2393",
+      "saldo": 90000,
+      "ultCambioContr": {},
+      "extHoy": [],
+      "movTotales": []
+    },
+    {
+      "dni": 43494874,
+      "nombre": "tomaaaaas",
+      "sueldo": 90000,
+      "clave": "callof2393",
+      "saldo": 90000,
+      "ultCambioContr": {},
+      "extHoy": [],
+      "movTotales": []
+    },
+    {
+      "dni": 47888888,
+      "nombre": "tomaaaaas",
+      "sueldo": 90000,
+      "clave": "callof2393",
+      "saldo": 90000,
+      "ultCambioContr": {},
+      "extHoy": [],
+      "movTotales": []
+    },
+    {
+      "dni": 57888888,
+      "nombre": "tomaaaaas",
+      "sueldo": 90000,
+      "clave": "callof2393",
+      "saldo": 90000,
+      "ultCambioContr": {},
+      "extHoy": [],
+      "movTotales": []
+    },
+    {
+      "dni": 27888888,
+      "nombre": "tomaaaaas",
+      "sueldo": 90000,
+      "clave": "callof2393",
+      "saldo": 90000,
+      "ultCambioContr": {},
+      "extHoy": [],
+      "movTotales": []
+    },
+    {
+      "dni": 27889888,
+      "nombre": "tomaaaaas",
+      "sueldo": 90000,
+      "clave": "callof2393",
+      "saldo": 90000,
+      "ultCambioContr": {},
+      "extHoy": [],
+      "movTotales": []
+    },
+    {
+      "dni": 47889888,
+      "nombre": "tomaaaaas",
+      "sueldo": 90000,
+      "clave": "callof2393",
+      "saldo": 90000,
+      "ultCambioContr": {},
+      "extHoy": [],
+      "movTotales": []
+    },
+    {
+      "dni": 47889868,
+      "nombre": "tomaaaaas",
+      "sueldo": 90000,
+      "clave": "callof2393",
+      "saldo": 90000,
+      "ultCambioContr": {},
+      "extHoy": [],
+      "movTotales": []
+    },
+    {
+      "dni": 478893868,
+      "nombre": "tomaaaaas",
+      "sueldo": 90000,
+      "clave": "callof2393",
+      "saldo": 90000,
+      "ultCambioContr": {},
+      "extHoy": [],
+      "movTotales": []
+    },
+    {
+      "dni": 9478893868,
+      "nombre": "tomaaaaas",
+      "sueldo": 90000,
+      "clave": "callof2393",
+      "saldo": 90000,
+      "ultCambioContr": {},
+      "extHoy": [],
+      "movTotales": []
+    },
+    {
+      "dni": 88888123,
+      "nombre": "tomaaaaas",
+      "sueldo": 90000,
+      "clave": "callof2393",
+      "saldo": 90000,
+      "ultCambioContr": {},
+      "extHoy": [],
+      "movTotales": []
+    },
+    {
+      "dni": 898888123,
+      "nombre": "tomaaaaas",
+      "sueldo": 90000,
+      "clave": "callof2393",
+      "saldo": 90000,
+      "ultCambioContr": {},
+      "extHoy": [],
+      "movTotales": []
+    },
+    {
+      "dni": 89888823,
+      "nombre": "tomaaaaas",
+      "sueldo": 90000,
+      "clave": "callof2393",
+      "saldo": 90000,
+      "ultCambioContr": {},
+      "extHoy": [],
+      "movTotales": []
+    }
+  ],
+  "registrados": 21,
+  "fondos": 3414303
+}
