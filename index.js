@@ -15,19 +15,16 @@ function main(args) {
   switch (args[0]) {
     case "extraccion":
       // [extraccion dni clave monto]
-      // TODO: Completar.
       e = extraccion(e, args[1], args[2], args[3])
-      // falta penultimo
+      // hecho
       break;
     case "clave":
       // args = [clave dni actual nueva]
-      // TODO: Completar.
       e = clave(e, args[1], args[2], args[3])
       // hecho
       break;
     case "saldo":
       //args = [ saldo dni clave]
-      // TODO: Completar.
       saldo(e, args[1], args[2])
       // hecho
       break;
@@ -43,9 +40,8 @@ function main(args) {
       break;
     case "movimientos":
       // args = [movimientos dni_admin clave_admin dni_consulta desde hasta]
-      // TODO: Completar.
       movimientos(e, args[1], args[2], args[3], args[4], args[5])
-      // falta, ultimo
+      // hecho
       break;
     default:
       console.log("Operación inválida.");

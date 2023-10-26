@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync, existsSync } from "fs";
 
-// aqui guardamos los datos de una extraccion
+// clase para crear objetos donde guardamos los datos de una extraccion.
 export class Extraccion {
   constructor(monto, fecha) {
     this.monto = monto;
@@ -8,15 +8,16 @@ export class Extraccion {
   }
 }
 
+// clase para crear objetos que guardan los datos de un cambio de contraseña.
 export class CambioContr {
-  constructor (antigua, nueva, fecha) {
+  constructor(antigua, nueva, fecha) {
     this.fecha = fecha
     this.antigua = antigua
     this.nueva = nueva
   }
 }
 
-// aqui guardaremos los datos de los usuarios
+// clase para crear objetos donde guardaremos los datos de los usuarios.
 export class Usuario {
   constructor(dni, nombre, sueldo, clave, saldo) {
     this.dni = dni;
@@ -24,7 +25,7 @@ export class Usuario {
     this.sueldo = sueldo;
     this.clave = clave;
     this.saldo = saldo;
-    this.ultCambioContr = {}; // guarda un objeto de tipo CambioContr. se inicializa vacia
+    this.ultCambioContr = {}; // guarda un objeto de tipo CambioContr. se inicializa vacia.
     this.extHoy = []; // será un arreglo de datos tipo Extraccion y contendrá las extracciones realizadas el dia de la fecha.
     this.movTotales = []; // será un arreglo de datos tipo Extraccion y contendrá todas las extracciones realizadas por el usuario.
   }

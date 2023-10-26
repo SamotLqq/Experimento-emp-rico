@@ -1,3 +1,4 @@
+// valida que el monto sea estrictamente positivo.
 function validar_monto(monto) {
   if (monto > 0) return true
   return false

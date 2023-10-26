@@ -3,8 +3,9 @@ import { obtenerUsuario } from '../comunes/obtenerUsuario.js'
 import { CambioContr } from '../estado.js';
 import { crearFecha } from '../comunes/crearFecha.js'
 
-// el funcionamiento deseado es que si cambio el mes o cambio el año desde la ultima vez que
-// cambiaste la contraseña la podes cambiar la contraseña.
+// el funcionamiento deseado es que si el mes o el año desde la ultima vez que
+// se modificó la contraseña es distinto al mes o al año (respectivamente) de la fecha actual
+// entonces se pueda volver a cambiar.
 function cambioDisponible(ultCambioContr, actCambioContr) {
   if (!actCambioContr) return false // si no se recibió bien el dato.
   let fechaUlt = ultCambioContr.fecha
@@ -14,7 +15,7 @@ function cambioDisponible(ultCambioContr, actCambioContr) {
   if (fechaUlt[1] - fechaActual[1] != 0 || fechaUlt[2] != fechaActual[2]) return true
   else return false
 }
-
+// función solicitada para cambiar la clave de un usuario.
 export function clave(e, dni, actual, nueva) {
   dni = Number(dni)
   let usuario = obtenerUsuario(e, dni);
