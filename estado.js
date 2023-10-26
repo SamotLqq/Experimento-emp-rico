@@ -55,7 +55,7 @@ export class Estado {
       contenido = readFileSync("estado.json", { encoding: "utf8" }).toString();
     }
     if (contenido === "") {
-      return Estado.#inicial();
+      return Estado.inicial();
     } else {
       let json = JSON.parse(contenido);
       let estado = new Estado();
@@ -69,7 +69,7 @@ export class Estado {
     }
   }
   /** Retorna una instancia del modelo de estado con sus valores iniciales. */
-  static #inicial() {
+  static inicial() {
     let estado = new Estado();
     // TODO: Asignar valores iniciales a las propiedades del estado, por ejemplo:
     // estado.propiedad1 = valor;
