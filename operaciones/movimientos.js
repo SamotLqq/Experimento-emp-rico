@@ -2,7 +2,10 @@ import { obtenerUsuario } from '../comunes/obtenerUsuario.js'
 
 
 function dar_formato_fecha(fechaSinFormato) {
-  return fechaSinFormato.split('-').map(e => Number(e))
+  if (fechaSinFormato) {
+    return fechaSinFormato.split('-').map(e => Number(e))
+  }
+  return false
 }
 
 // retorna 1 si fecha1 es mayor a fecha2, 0 si son iguales, -1 si es menor.
@@ -24,7 +27,7 @@ function imprimir_movimientos(mov, desde, hasta) {
     let mov_i = mov[i];
     let fecha_i = mov_i.fecha
     if (comparar_fechas2(fecha_i, desde) >= 0 && comparar_fechas2(fecha_i, hasta) <= 0) {
-      let impresion_i = "- movimiento " + i + ": "
+      let impresion_i = "- movimiento " + (i + 1) + ": "
       for (var propiedad in mov_i) {
         if (mov_i.hasOwnProperty(propiedad)) {
           impresion_i = impresion_i + propiedad + ": " + mov_i[propiedad] + " - "
