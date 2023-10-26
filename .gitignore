@@ -1,4 +1,5 @@
-./node_modules
-./.breakpoints
-./.replit
-./replit.nix
+node_modules
+.upm
+.replit
+replit.nix
+estado.json
